@@ -1,6 +1,11 @@
 # Stork-Auto-Bot
 ## This is a bot used to verify Stork Oracle's signed price data. It periodically fetches signed price data from the API and verifies its validity.
 
+## 📢 Join Our Community
+
+# Telegram Channel: .[Channel](https://t.me/Offical_Im_kazuha)
+# GitHub Repository: [Stork](https://github.com/Kazuha787/Stork-Auto-Bot.git)
+
 ### Installation:
 
 1️⃣  Clone this repository to your local machine:
