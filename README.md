@@ -15,25 +15,36 @@ git clone https://github.com/Kazuha787/Stork-Auto-Bot.git && cd Stork-Auto-Bot
 
 2️⃣ Install dependencies:
 ```
-npm install axios user-agents fs
+npm install 
 ```
 
-3️⃣  Create and fill in the `token.txt`file:
-- If the `token.txt` file does not exist, the program will automatically create a template file. You need to copy the tokens from the Stork Verify application's localStorage and paste them into `tokens.json`.
+3️⃣ edit the account 
 ```
-nano token.txt
+nano accounts.js
 ```
- ➕ Add `Access Token` Start with: `eyjjug`
- 
- ➕ Add `idToken` Start with: `eyfadf`
- 
- ➕ Add `refresh token` start with: `eyfafad`
- 
- ➕ To obtain **Access Token**,**idtoken**,**refresh token** ▶️ Click Mouse 2 Stork Extension node ▶️ Click Inspect ▶️ Click Application ▶️ Click Extension Storage ▶️ Click Local And Copy!
- 
- ➕ Save the file **(CTRL + X,then Y, then Enter)**
 
-![image](https://github.com/user-attachments/assets/0351ab1a-9f1d-472b-ad76-6354b21bd85a)
+
+2. Edit the generated `accounts.js` file with your credentials:
+```javascript
+export const accounts = [
+  { username: "email1", password: "pass1" },
+  { username: "email2", password: "pass2" }
+];
+```
+
+3. Replace `username` and `password` with your Stork Oracle account credentials.
+just add new line if you wanna run many accounts
+
+### Optional: Proxy Configuration
+
+To use proxy servers for distribution of requests:
+
+1. Create a `proxies.txt` file in the project root
+2. Add one proxy per line in any of these formats:
+   - HTTP proxies: `http://user:pass@host:port`
+   - SOCKS proxies: `socks5://user:pass@host:port`
+
+## Usage
 
 5️⃣ Run the bot:
 ```
