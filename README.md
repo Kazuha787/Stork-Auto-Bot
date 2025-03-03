@@ -37,7 +37,7 @@ nano token.txt
 
 5️⃣ Run the bot:
 ```
-node Stork.js
+node index.js
 ```
 ➕ to detach screen **Ctrl + A, Then Click D**
 
